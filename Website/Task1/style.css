@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    margin-top: 0 !important;
+}
+li{
+    list-style-type: none;
+}
+.blue{
+    color: blue;
+}
+.black{
+    font-weight: 900;
+}
+
+/*Header*/
+.header{
+    background-color: rgb(240, 240, 240);
+}
+.header .main-nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.header div{
+    margin:0 30px;
+}
+.additional>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.user-option>li{
+    margin: 10px 15px;
+    font-weight: bolder;
+}
+.input input{
+    padding: 7px 50px;
+    border-right: none;  
+    border-color : rgb(30, 30, 90);
+    outline: none;
+} 
+.input button{
+    background-color: rgb(30, 30, 90);
+    color: white; 
+    padding: 0 5px;
+    border-color:rgb(30, 30, 90);
+}
+.menu-options button{
+    padding:25px; 
+    border:none; 
+    height: 100%;
+    display: inline; 
+    background-color: transparent;
+} 
+.menu-options button:hover{
+    color:blue;
+    background-color: white;
+    margin:0;
+}
+.input{
+    display: flex;
+    font-size: 1.4rem; 
+}  
+.feature-container {
+    padding: 10px;
+    display: none;
+    align-items: center;
+    justify-content:center;
+}
+.feature-container ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.features{
+    margin:  0 50px;
+}
+.features ul li{
+    margin:10px 20px;
+}
+.feature-container ul li{
+    font-weight: 500;
+    color: rgb(66,65,65);
+} 
+  .feature-container img{  
+    border-radius: 50%;
+}
+.feature-container #brand{
+    color:blue;
+}
+.header .brand-logo{
+    display: none;
+}
+.header .brand-logo img{
+    border-radius: 50%;
+}
+.header .brand-logo ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+} 
+.second{
+    display: none;
+    text-align: center; 
+    justify-content: center;
+}
+.brand-logo , .features{
+    margin:  0 30px;
+}
+.responsive-menu{
+    display: none;
+    overflow-y: auto;
+}
+.hamburger-menu{ 
+    border:none;  
+    display: none;  
+}  
+
+.responsive-menu .main-button {
+    padding: 10px;
+    display: none; 
+}
+.responsive-menu .list  {
+    display:flex;
+    flex-direction: column; 
+}
+
+/*Hero*/
+.main{
+    margin-top: 20px;
+}
+.images {
+    display: grid;
+    grid-template-columns: 800px 380px;
+    gap: 10px; 
+    justify-content: center; 
+}
+.small {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+.images img {
+    max-width: 100%;
+    height: auto;
+} 
+/*Products*/
+.shop {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; /* Prevent items from wrapping onto the next line */
+}
+.item {
+    width:150px;  
+    padding: 10px;  
+    background-color: transparent;  
+    text-align: center;  
+    margin: 40px;
+}
+.item p {
+    font-size: 20px;
+    margin-bottom: 10px;  
+    padding: 2px;
+}
+.item img {
+    max-width: 100%;  
+}
+.item button {
+    width: 100%;  
+    padding: 5px 10px;  
+    margin-top: 10px; 
+    background-color: rgb(40, 40, 241);
+    color:white;
+}
+ 
+  /*Footer*/
+.footer{
+    background-color: rgb(71, 71, 133);
+    color: white;
+}
+.main-footer {
+    text-align: center;
+    padding: 10px;
+}
+.main-footer img{
+    border-radius: 50%;
+    margin: 20px;
+}
+.footer-body{
+    display: flex;
+    justify-content: center;
+}
+.footer-body .col{
+    padding:15px;
+}
+.footer-body h6{
+    padding:8px;
+}
+.footer-body ul {
+    padding: 0;
+}
+.footer-body ul li{
+    padding:8px;
+}
+.footer-body button{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-weight: 500;
+    margin:5px;
+} 
+.more{
+    text-align: center;
+}  
+.extra ul li{
+    display: inline-block;
+}
+.footer-footer{
+    background-color: rgb(1, 1, 75);
+    text-align: center;
+}
+.box{
+    border: 1px solid white;
+    padding: 10px;
+}
+.footer-footer .bottom{
+    display: inline-block;
+    margin: 20px;
+} 
